@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Waste</title>
+    <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Smart Waste</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#">Грати</a></li>
+          <li><a href="file:///C:/Users/User/Desktop/SmartWaste1/index.html#map">Здати сміття</a></li>
+          <li><a href="#projects">Мої досягнення</a></li>
+          <li id="open-modal-btn"><a href="#my-modal">Допомога</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Smart Waste</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#" onclick="toggleMenu()">Грати</a></li>
+          <li><a href="file:///C:/Users/User/Desktop/SmartWaste/index.html#map" onclick="toggleMenu()">Здати сміття</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Мої досягнення</a></li>
+          <li id="open-modal-btn" ><a href="#my-modal" onclick="toggleMenu()">Допомога</a></li>
+        </div>
+      </div>
+    </nav>
+ <div class="modal" id="my-modal">
+        <div class="modal__box">
+            <button class="modal__close-btn" id="close-my-modal-btn">
+                <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
+                        fill="#333333" />
+                    <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333" />
+                </svg>
+            </button>
+            <h2> Дякуємо за звернення!</h2>
+
+            <p>Якщо у вас є будь-які питання або потреба в допомозі, будь ласка, звертайтеся до нас.</p>
+
+            <p>Номер телефону для контакту: +380123456789
+              Електронна пошта: support@example.com</p>
+
+               <p>Ми завжди готові допомогти вам!</p>
+
+            
+        </div>
+    </div>
+     
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="profile-pic.jpg" alt="profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Привіт,</p>
+        <h1 class="title">Друже!</h1>
+        <p class="section__text__p2">Дякуємо, що обираєте нас</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('')"
+          >
+           Перевірити тип сміття
+          </button>
+
+      <button class="btn btn-color-1" id="open-modal-btn1" onclick="redirectToMyModal()"> Зв'язатися
+</button>
+
+<script>
+  function redirectToPersonIndex() {
+    window.location.href = "my-modal1";
+  }
+</script>
+
+<div class="modal1" id="my-modal1">
+        <div class="modal__box1">
+            <button class="modal__close-btn1" id="close-my-modal-btn1">
+                <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
+                        fill="#333333" />
+                    <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333" />
+                </svg>
+            </button>
+
+            <p>Номер телефону для контакту: +380123456789
+              Електронна пошта: support@example.com</p>
+      
+        </div>
+    </div>
+
+        </div>
+        
+      </div>
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Мої досягнення</p>
+      <h1 class="title">Досягнення</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="project-1.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Перше сміття</h2>
+
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="project-2.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Друге Сміття</h2>
+ 
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="project-3.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Ультра Сміття</h2>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="project-6.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Перші 10 очок</h2>
+        </div>
+
+
+        </div>
+        </div>
+      </div>
+      
+    </section>
+    <script defer src="js/index.js"></script>
+  </body>
+  </html>
+  

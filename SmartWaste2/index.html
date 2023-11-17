@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SmartWaste</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8PaeJRCeNcIHC0ipPubB52vfB61Sd7H8&callback=initMap" async defer></script>
+</head>
+<body>
+    <header id="home">
+       <nav>
+            <div class="container">
+                <h3 class="logo">Smart<span>Waste</span></h3>
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                </div> 
+                <nav class="navigation">
+                    <a href="#home">Загальна</a>
+                    <a href="#about">Про SmartWaste</a>
+                    <a href="Person/index.html">Особистий кабінет</a>
+                    <a href="#footer">Контакти</a>
+                    <button class="btnLogin-popup">Реестрація</button>
+                </nav>
+            </div>
+        </nav>
+       
+
+
+        <h1  class="big-title translate" data-speed="0.1">SmartWaste.</h1>
+
+        <img src="img/person.png" class="person translate" data-speed="-0.25" alt="">
+        <img src="img/mountain1.png" class="mountain1 translate" data-speed="-0.2" alt="">
+        <img src="img/mountain2.png" class="mountain2 translate" data-speed="0.4" alt="">
+        <img src="img/mountain3.png" class="mountain3 translate" data-speed="0.3" alt="">
+        <img src="img/sky.png" class="sky translate" data-speed="0.4" alt="">
+    </header>
+        <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+            <div class="form-box login">
+                <h2>Увійти</h2>
+                <form action="#"></form>
+                    <div class ="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                     <div class ="input-box">
+                        <span class="icon"><ion-icon name="lock"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Запам'ятати мене</label>
+                        <a href="#">Забули пароль?</a>
+                    </div>
+                    <button type="submit" class="btn">Вхід</button>
+                        <div class="login-register">
+                            <p>Немає аккаунту? 
+                            <a href="#" class="register-link">Реєстрація</a>
+                            </p>
+                        </div>
+                   </div>
+         <div class="form-box register">
+                <h2>Реєстрація</h2>
+                <form action="#"></form>
+                    <div class ="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input type="text" required>
+                        <label>Username</label>
+                    </div>
+                    <div class ="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                     <div class ="input-box">
+                        <span class="icon"><ion-icon name="lock"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Я даю згоду на обробку моїх персональних данних</label>
+                    </div>
+         <button type="submit" class="btn" >Реєстрація</button>
+
+
+
+                        <div class="login-register">
+                            <p>Вже є аккаунт? 
+                            <a href="#" class="login-link">Вхід</a>
+                            </p>
+                        </div>
+            </div>
+
+        </div>
+ 
+    <section id="about">
+        <div class="shadow"></div>
+
+        <div class="container">
+            <div class="content opacity">
+                <h3 class="title">
+                    Про SmartWaste
+                    <div class="border"></div>
+                </h3>
+                <p class="text">Програма "SmartWaste - Розумне сортування сміття" створена з метою полегшення процесу сортування відходів для тих, хто не має достатнього досвіду у цьому питанні.Програма також надає корисні поради щодо відновлення та вторинного використання відходів, сприяючи загальній екологічній свідомості. "SmartWaste" - це крок до збереження навколишнього середовища та розвитку культури відповідального споживання.</p>
+            </div>
+
+            <div class="imgContainer opacity">
+                <img src="img/image.jpg" alt="">
+            </div>
+        </div> 
+
+    </section>
+
+
+    <section class="banner" id="ban"> 
+        <h4 href="#">Чому необхідно сортувати сміття?</h4>
+        <div class="slider">
+            <div class="slide active">
+                <img src="img/photo.jpg" alt="" >
+                <div class="left-info">
+                    <div class="penetrate-blur">
+                        <h1>Оке</h1>
+                         </div>
+                        <div class="content1">
+                            <h3>01. Океани</h3>
+                            <p>Сміття, яке потрапляє в океани, стає серйозною загрозою для водного середовища. Пластикові відходи розкладаються десятиліттями, вивільнюючи токсичні речовини та шкідливо впливаючи на морську фауну. Це порушує екосистему та загрожує здоров'ю океанічних глибин.</p>
+                       <a href="https://www.ukrinform.ua/rubric-culture/2813367-u-svitovij-okean-soroku-skidaut-blizko-12-miljoniv-tonn-plastiku.html" class="btnw">Читати детальніше</a>
+                    </div>
+                </div>
+                <div class="right-info">
+                <h1>ани</h1>
+                </div>
+            </div>
+
+
+             <div class="slide">
+                <img src="img/photo1.jpg" alt="" >
+                <div class="left-info">
+                    <div class="penetrate-blur">
+                        <h1>Пля</h1>
+                         </div>
+                        <div class="content1">
+                            <h3>02. Пляжі</h3>
+                            <p>Сміття, що потрапляє на пляжі, стає серйозною загрозою для прибережних екосистем. Пластик та інші відходи розкладаються, вивільнюючи токсичні речовини, які можуть проникати в морські та прибережні ґрунти, порушуючи їхню стабільність та загрожуючи морським рослинам і тваринам. </p>
+                       <a href="https://www.bbc.com/ukrainian/features-44425241" class="btnw">Читати детальніше</a>
+                    </div>
+                </div>
+                <div class="right-info">
+                <h1>жі</h1>
+                </div>
+            </div>
+
+
+             <div class="slide">
+                <img src="img/photo2.jpg" alt="" >
+                <div class="left-info">
+                    <div class="penetrate-blur">
+                        <h1>Гру</h1>
+                         </div>
+                        <div class="content1">
+                            <h3>03. Грунти</h3>
+                            <p>Сміття, що накопичується на земельній поверхні, стає серйозною загрозою для ґрунтів. Неперероблені відходи викидають токсичні речовини, які можуть проникнути в ґрунтовий шар, порушуючи його природну структуру та хімічний склад.</p>
+                       <a href="https://www.reline.com.ua/statti/smittezvalyshha-ta-dovkillya/" class="btnw">Читати детальніше</a>
+                    </div>
+                </div>
+                <div class="right-info">
+                <h1>нти</h1>
+                </div>
+            </div>
+
+
+             <div class="slide">
+                <img src="img/photo3.jpg" alt="" >
+                <div class="left-info">
+                    <div class="penetrate-blur">
+                        <h1>Тва</h1>
+                         </div>
+                        <div class="content1">
+                            <h3>04. Тварини</h3>
+                            <p>Сміття може серйозно шкодити тваринам, які потрапляють в його зону впливу. Наприклад, пластикові відходи можуть викликати задушення та пошкодження органів у птахів та морських тварин, які помиляють їх із їжею. </p>
+                       <a href="https://happypaw.ua/ua/news/one/205" class="btnw">Читати детальніше</a>
+                    </div>
+                </div>
+                <div class="right-info">
+                <h1>рини</h1>
+                </div>
+            </div>
+        </div>
+
+
+
+             <div class="slide">
+                <img src="img/photo4.jpg" alt="" >
+                <div class="left-info">
+                    <div class="penetrate-blur">
+                        <h1>Лю</h1>
+                         </div>
+                        <div class="content1">
+                            <h3>05. Люди</h3>
+                            <p>Сміття може спричиняти різноманітні негативні впливи на здоров'я та благополуччя людей. Наприклад, неправильна утилізація сміття та надмірне використання пластику призводять до забруднення повітря та води, що може викликати різні захворювання дихальних та шлунково-кишкових систем.</p>
+                       <a href="https://nar-rda.gov.ua/novini/smittezvalischaih-vpliv-na-dovkillya-ta-zdorovya-ljudej/" class="btnw">Читати детальніше</a>
+                    </div>
+                </div>
+                <div class="right-info">
+                <h1>ди</h1>
+                </div>
+            </div>
+        </div>
+        <div class="navigat">
+            <span class="prev-btn">
+                <ion-icon name="arrow-back"></ion-icon>
+            </span>
+            <span class="next-btn">
+                <ion-icon name="arrow-forward"></ion-icon>
+            </span>
+        </div>
+    </section>
+      <section id="people">
+
+        <div class="container2">
+
+                <h3 class="title2">
+                    КОРИСТУЙТЕСЬ БАГАТОРАЗОВИМ, СОРТУЙТЕ, ПЕРЕРОБЛЯЙТЕ, ВІДПОВІДАЛЬНО СПОЖИВАЙТЕ!    
+                </h3>
+                <p class="text2">93% відходів в Україні потрапляє на звалища. Сьогодні 6 тисяч офіційних сміттєзвалищ займають площу близько 9 тис. гектарів, що разом покрили б площу міста Хмельницький. Існують також 26,6 тис. несанкціонованих звалищ, які щодня зростають навколо наших міст і сіл.</p>
+       
+        </div> 
+    </section>
+<div class="parent-container">
+ <div class="container3">
+     <div class="slide2">
+         <div class="item" style="background-image: url(img/photo6.jpg);">
+            <div class="content2">
+             <div class="name">Метал</div>
+             <div class="des">Сортуємо:
+Алюмінієві та консервні баночки, інші види металів.</div>
+             <a href="https://ecopolitic.com.ua/ua/news/yak-potribno-sortuvati-vidhodi-z-metalu-osnovni-pravila/">
+  <button>Більше інформації</button>
+</a>
+
+         </div>
+         </div>
+                  <div class="item" style="background-image: url(img/photo5.jpg);">
+                    <div class="content2">
+             <div class="name">Пластик</div>
+             <div class="des">Сортуємо:
+Пляшки з маркуванням PET або PETTE; пляшки й флакони з маркуванням HDPE, PEHD, PE, кришечки, поліетилен у вигляді плівки.</div>
+                     <a href="https://taslife.com.ua/blog/yak-pravylno-sortuvaty-plastyk">
+  <button>Більше інформації</button>
+</a>
+         </div>
+     </div>
+                  <div class="item" style="background-image: url(img/photo7.jpg);">
+                     <div class="content2">
+             <div class="name">Папір</div>
+             <div class="des">Сортуємо:
+Газети, каталоги, журнали, зошити, використаний папір, конверти, книжки без твердої обкладинки, картонні ящики та коробки, паперові пакети.
+Папір не комкайте, а складайте рівно лист на лист.</div>
+                     <a href="https://ecopolitic.com.ua/ua/news/ukraincyam-poyasnili-yak-pravilno-sortuvati-papir-dlya-pererobki/">
+  <button>Більше інформації</button>
+</a>
+         </div>
+     </div>
+                  <div class="item" style="background-image: url(img/photo8.jpg);">
+                     <div class="content2">
+             <div class="name">Скло</div>
+             <div class="des">Сортуємо:
+Цілі та биті скляні пляшки, інші види скляних відходів.</div>
+                     <a href="https://ecogrizzly.shop/waste-sorting/">
+  <button>Більше інформації</button>
+</a>
+         </div>
+     </div>
+
+                           <div class="item" style="background-image: url(img/photo9.jpg);">
+                             <div class="content2">
+             <div class="name">Тетра-Пак</div>
+             <div class="des">Сортуємо:
+Tetra Pak вид багатошарового пакування (картон, поліетилен, фольга), що найчастіше використовується як тара для молока та соку.
+Упакування необхідно помити всередині та спресувати.</div>
+                       <a href="https://ecopolitic.com.ua/ua/news/yak-pravilno-pidgotuvati-ta-vidpraviti-na-pererobku-tetra-pak/">
+  <button>Більше інформації</button>
+</a>
+         </div>
+     </div>
+                           <div class="item" style="background-image: url(img/photo10.jpg);">
+                             <div class="content2">
+             <div class="name">Небезпечні відходи</div>
+             <div class="des">Сортуємо:
+Батарейки та акумулятори, стара побутова техніка, ртутні термометри, люмінесцентні лампи, залишки масел та масляні фільтри, рештки клею, фарби, лаку та розчинів, медичні відходи, зокрема ліки та одноразові маски, хімікати та пестициди.</div>
+                     <a href="https://glavred.net/lifehack/kak-pravilno-sortirovat-musor-i-chto-zapreshcheno-vybrasyvat-sovety-hozyaykam-10412903.html">
+  <button>Більше інформації</button>
+</a>
+         </div>
+     </div>
+                           <div class="item" style="background-image: url(img/photo11.jpg);">
+                             <div class="content2">
+             <div class="name">Органіка</div>
+             <div class="des">Сортуємо:
+Овочі, фрукти, листя, трава, хліб.</div>
+                     <a href="https://ecopolitic.com.ua/ua/news/yak-sortuvati-organiku-shhob-vona-tochno-potrapila-na-kompostuvannya-osnovni-pravila/">
+  <button>Більше інформації</button>
+</a>
+         </div>
+     </div>
+                           <div class="item" style="background-image: url(img/photo12.jpg);">
+                             <div class="content2">
+             <div class="name">Речі та одяг</div>
+             <div class="des">Відремонтуйте, дайте їм друге життя або віддайте нужденним.</div>
+                     <a href="https://sts.sumy.ua/society/viddaty-odyag-na-potreby-nuzhdennym-yak-i-kudy.html">
+  <button>Більше інформації</button>
+</a>
+         </div>
+     </div>
+     </div>
+
+
+
+         <div class="button">
+             <button class="prev1">
+                  <ion-icon name="arrow-back"></ion-icon>
+             </button>
+             <button class="next1">
+                  <ion-icon name="arrow-forward"></ion-icon>
+             </button>
+         </div>
+ </div>
+</div>
+
+
+      <section>
+        <div class="container4">
+                <h3 class="title4">
+                  ЗРОБИМО УКРАЇНУ
+ЧИСТОЮ РАЗОМ!
+                </h3>
+                <p class="text">01.  Знайдіть найближчий пункт приймання вторсировини.
+               <br> 02.  Відсортуйте сировину відповідно до інструкцій станції або баку
+<br>03.  Очистіть від залишків їжі, спресуйте, здайте на перероблення</p>
+        </div> 
+
+    </section>
+<section class="map">
+    <div id="map" style="height: 100vh;"></div>
+ 
+</section>
+
+<footer id="footer">
+    <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social_icon">
+        <li><a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+        <li><a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+        <li><a href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+        <li><a href="#"> 
+            <ion-icon name="logo-youtube"></ion-icon></a></li>
+    </ul>
+    <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#ban">Services</a></li>
+        <li><a href="#people">Team</a></li>
+        <li><a href="#footer">Contact</a></li>
+    </ul>
+<p>&copy2023 NotC++Fans All Rights Reserved </p>
+</footer>
+
+    <script src="app.js"></script>
+      <script src="main.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8PaeJRCeNcIHC0ipPubB52vfB61Sd7H8&callback=initMap" async defer></script>
+</body>
+</html>
